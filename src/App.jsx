@@ -2,6 +2,7 @@ import './index.css'
 import Navbar from './Components/Navbar'
 import CourseList from './Components/CourseList'
 import Announcements from './Components/Announcements'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       { name: "Database Management", units: 3 }
      ]}/>
      <Announcements />
+     <Footer />
     </>
   )
 }
